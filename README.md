@@ -1,4 +1,4 @@
-# 🛍️ Shopping List Card
+# 🛍️ Shopping List Card - Fork
 [![GitHub Release][release_badge]][release]
 [![Downloads][downloads_badge]][release]
 [![Community Forum][forum_badge]][forum]
