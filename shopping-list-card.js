@@ -669,7 +669,7 @@ class ShoppingListCard extends HTMLElement {
   _buildFullName() {
     const c = this._config;
     const base = c.subtitle ? `${c.title} ${c.subtitle}` : c.title;
-    return c.list_prefix ? `@${c.list_prefix}@ ${base}` : base;
+    return c.list_prefix ? `${c.list_prefix} ${base}` : base;
   }
 
   /** Resolve the effective image URL: explicit `image` wins, otherwise
